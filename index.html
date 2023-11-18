@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+<head>
+<link rel="icon" href="icone.ico" type="image/x-icon">
+    <title id="pageTitle">Empresa Filix</title>
+<link rel = "stylesheet" type="text/css" href="escolas-css.css"/>
+<script>
+        function isMobileDevice() {
+            return (
+                typeof window.orientation !== 'undefined' || 
+                navigator.userAgent.indexOf('Mobile') !== -1
+            );
+        }
+        function redirectToMobilePage() {
+            if (isMobileDevice()) {
+                console.log('Não é computador');
+                window.location.href = 'celular.html';
+            } else {
+                console.log('Computador');
+            }
+        }
+        document.addEventListener('DOMContentLoaded', redirectToMobilePage);
+var arquivo1 
+arquivo1 = "inicio.png"
+arquivo2 = "trabalhadores.png"
+arquivo3 = "conclusão.png"
+
+function muda1 (){
+document.getElementById("sws").src = arquivo1;
+}
+function muda2 (){
+document.getElementById("sws").src = arquivo2;
+}
+function muda3 (){
+document.getElementById("sws").src = arquivo3;
+}
+
+</script>
+</head>
+<body>
+<div id="fundo">
+<div id="um">
+
+<h1 style="padding: 60px 20px 60px 20px;">Empresa Filix</h1>
+<div id="dois">
+    <div onmousemove="muda1()"  onmouseout="muda1()" id="item1-a"><h2><a style="font-family: 'bezerra',sans-serif; font-size: 23pt; text-decoration: none; color: red;" href="index.html">Início </a></h2></div>
+    <div onmousemove="muda2()"  onmouseout="muda1()" id="item2-b"><h2><a style="font-family: 'bezerra',sans-serif; font-size: 23pt; text-decoration: none; color: yellow;" href="vet.html">Equipe</a></h2></div>
+    <div onmousemove="muda3()"  onmouseout="muda1()" id="item3-c"><h2><a style="font-family: 'bezerra',sans-serif; font-size: 23pt;text-decoration: none; color: orangered;" href="equipe.html">Projetos</a></h2></div>
+</div>
+</div>
+<div id="tres">
+<div id="contato"><h1 style="margin-top: 0; opacity: 0.8; margin-top:20px; margin-bottom:20px;">Telefone/WhatsApp:</h1> <h1 style="margin-top: 0; opacity: 0.8;margin-top:5px; margin-bottom:20px;">+55 15 988163032</h1></div>
+<div id="troca">
+<img id="sws" src="inicio.png"/>
+</div>
+</div>
+<audio style="margin-top:10px; margin-bottom: 10px; width: 250px; height: 100px;"controls="controls">
+    <source src="audio.mp3" type="audio/mpeg"/>
+    </audio>
+<h1 style="font-family: 'samir',sans-serif;
+background-color:rgba(89, 20, 216, 0.4);
+border-radius: 30px;
+padding: 20px;
+ color: white;
+  opacity: 1;
+   margin-top: 5;
+   margin-bottom: 10px;
+    font-size:20pt;
+     text-indent: 50px;
+      text-shadow: 1px 1px 3px red, -1px 1px 3px blue, 1px -1px 3px orange, -1px -1px 3px green;">A empresa Filix é uma construtora comprometida com a preservação do meio ambiente e a sustentabilidade em seus empreendimentos. Nossa missão vai além da simples construção: cada projeto é uma expressão do compromisso com um futuro mais verde e próspero.
+
+    Para atingir esse objetivo, desenvolvemos prédios inovadores, onde a tecnologia de ponta se alia à responsabilidade ambiental. Utilizamos materiais de construção sustentáveis, privilegiando madeiras certificadas e materiais de baixo impacto ambiental, além de incorporar o uso de energias renováveis, como a energia solar e eólica, reduzindo assim nossa pegada de carbono.
+    
+    Além disso, a eficiência energética é um pilar fundamental em nossos projetos. Implementamos sistemas inteligentes que maximizam o uso da energia e minimizam o desperdício, resultando em prédios energeticamente eficientes, que consomem menos recursos e reduzem os custos operacionais.
+    
+    Nosso compromisso com a natureza vai além das estruturas: integrar espaços verdes e paisagismo sustentável é parte intrínseca de nossos projetos, fomentando a biodiversidade e contribuindo para reduzir o calor urbano.
+    
+    Além disso, adotamos práticas de gestão de resíduos durante a construção e operação, priorizando a redução, reutilização e reciclagem de materiais, minimizando o impacto ambiental de nossas atividades.
+    
+    Por fim, buscamos não apenas construir prédios, mas também educar e conscientizar. Desenvolvemos programas de educação ambiental para os residentes, funcionários e comunidades locais, promovendo a adoção de práticas sustentáveis em seu dia a dia.
+    
+    Na Filix, estamos comprometidos em ser líderes na promoção de um desenvolvimento urbano sustentável e ecoconsciente, trabalhando para um futuro onde arquitetura e preservação ambiental caminham de mãos dadas. </h1>
+</div>
+<h1 style="text-indent: 100px; font-size: 10pt; font-family:'isaque',sans-serif;">Isaque Samir Bezerra de Melo Silva</h1>
+<div id="ch5">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+       <a href="https://wa.me/5515988163032?text=Olá!%20senhor%20Isaque" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+         z-index:1000;" target="_blank">
+       <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+       </a>
+   </div>
+</body>
+</html>

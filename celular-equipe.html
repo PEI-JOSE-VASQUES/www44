@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title id="pageTitle">Empresa Filix</title>
+    <link rel="icon" href="icone.ico" type="image/x-icon">
+<link rel = "stylesheet" type="text/css" href="celular-equipe-css.css"/>
+<script src="form.js"></script>
+</head>
+<script>
+function muda1 () {
+    document.getElementById("troca").src ="inicio.png";
+}
+function muda2 () {
+document.getElementById("troca").src ="trabalhadores.png";
+}
+function muda3 () {
+    document.getElementById("troca").src ="conclusão.png";
+}
+function login(){window.location.href = "login.html";
+}
+</script>
+<body>
+<div id="fundo">
+<h1>&copy;</h1>
+<div id="um">
+    <div id="v1">d</div>
+<h1>Empresa Filix</h1>
+<div id="v2">
+</div>
+
+</div>
+<div id="dois">
+    <div onmousemove="muda1()"  onmouseout="muda3()" id="item1-a"><h2><a style="font-family: 'samir',sans-serif; font-size: 23pt; text-decoration: none; color: red;" href="index.html">Início </a></h2></div>
+    <div onmousemove="muda2()"  onmouseout="muda3()" id="item2-b"><h2><a style="font-family: 'samir',sans-serif; font-size: 23pt; text-decoration: none; color: yellow;" href="vet.html">Equipe</a></h2></div>
+    <div onmousemove="muda3()"  onmouseout="muda3()" id="item3-c"><h2><a style="font-family: 'samir',sans-serif; font-size: 23pt;text-decoration: none; color: orangered;" href="equipe.html">Projetos</a></h2></div>
+
+</div>
+<div id="tres">
+<div id="bott">
+    <audio style="margin-top:10px; margin-bottom: 10px; width: 250px; height: 100px;"controls="controls">
+        <source src="audio-equipe.mp3"/>
+        </audio>
+    <button id="b1"onclick="login()"><p>Pedro</p></button>
+    <button id="b2"onclick="login()"><p>André</p></button>
+    <button id="b3"onclick="login()"><p>Tiago</p></button>
+    <button id="b4"onclick="login()"><p>João</p></button>
+</div>
+</div>
+<script>
+    function mostrarDiv(divId) {
+        const divs = document.getElementsByClassName('conteudo');
+        for (let i = 0; i < divs.length; i++) {
+            divs[i].style.display = 'none';
+        }
+        document.getElementById(divId).style.display = 'block';
+    }
+</script>
+<div id="ch5">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+       <a href="https://wa.me/5515988163032?text=Olá!%20senhor%20Isaque" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+         z-index:1000;" target="_blank">
+       <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+       </a>
+   </div>
+</body>
+</html>

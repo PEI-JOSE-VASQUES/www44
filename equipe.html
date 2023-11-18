@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title id="pageTitle">Empresa Filix</title>
+    <link rel="icon" href="icone.ico" type="image/x-icon">
+
+<link rel = "stylesheet" type="text/css" href="equipe-css.css"/>
+<script src="form.js"></script>
+</head>
+<script>
+function isMobileDevice() {
+            return (
+                typeof window.orientation !== 'undefined' || 
+                navigator.userAgent.indexOf('Mobile') !== -1
+            );
+        }
+        function redirectToMobilePage() {
+            if (isMobileDevice()) {
+                console.log('Usuário está em um dispositivo móvel.');
+                window.location.href = 'celular-equipe.html';
+            } else {
+                console.log('Usuário está em um computador.');
+            }
+        }
+        document.addEventListener('DOMContentLoaded', redirectToMobilePage);
+function muda1 () {
+    document.getElementById("troca").src ="inicio.png";
+}
+function muda2 () {
+document.getElementById("troca").src ="trabalhadores.png";
+}
+function muda3 () {
+    document.getElementById("troca").src ="conclusão.png";
+}
+function login(){window.location.href = "login.html";
+}
+</script>
+<body>
+<div id="fundo">
+<h1>&copy;</h1>
+<div id="um">
+    <div id="v1">
+<audio style="margin-top:10px; margin-bottom: 10px; width: 120px; height: 30px;"controls="controls">
+<source src="audio-equipe.mp3"/>
+</audio>
+    </div>
+<h1>Empresa Filix</h1>
+<div id="v2">
+<img id="troca" src= 'conclusão.png'/>
+</div>
+
+</div>
+<div id="dois">
+    <div onmousemove="muda1()"  onmouseout="muda3()" id="item1-a"><h2><a style="font-family: 'samir',sans-serif; font-size: 23pt; text-decoration: none; color: red;" href="index.html">Início </a></h2></div>
+    <div onmousemove="muda2()"  onmouseout="muda3()" id="item2-b"><h2><a style="font-family: 'samir',sans-serif; font-size: 23pt; text-decoration: none; color: yellow;" href="vet.html">Equipe</a></h2></div>
+    <div onmousemove="muda3()"  onmouseout="muda3()" id="item3-c"><h2><a style="font-family: 'samir',sans-serif; font-size: 23pt;text-decoration: none; color: orangered;" href="equipe.html">Projetos</a></h2></div>
+
+</div>
+<div id="tres">
+<div id="tres-fecha1"  class="conteudo">
+    <figure id="um"> <img src="https://sustentarqui.com.br/wp-content/uploads/2015/03/Casa-88-e1426267643681.jpg"id="c-img1" width="853px"> <div style="font-size:40pt; color: white;" id = "oc1">Casa 88°premiada (Boa Vista- SP)</div> </figure>
+    <figcaption id="figcaption">Localizada no condomínio residencial Fazenda Boa Vista, em SP, a 
+        casa segue as premissas da sustentabilidade em todo o seu ciclo de vida.
+         Integra conhecimento e inovação tecnológica aos aspectos econômicos, 
+         ambientais, sociais e culturais. O projeto é uma referência para casas
+          sustentáveis no Brasil e por isso recebeu o Prêmio Saint Gobain na 
+          categoria PROFISSIONAL – MODALIDADE RESIDENCIAL 2015. A autoria é 
+          do Atelier O´Reilly Architecture & Partners.</figcaption>    
+        </div>
+
+
+<div id="tres-fecha2"class="conteudo">
+<figure id="dois"> <img src="https://sustentarqui.com.br/wp-content/uploads/2016/02/fachada-1.jpg"id="c-img1" width="853px"> <div style="font-size:17pt; color: white;" id = "oc2">Casa com medidas sustentáveis em um condomínio residencial (Goiânia – GO)</div> </figure>
+<figcaption id="figcaption">Nesta casa localizada em um condomínio residencial em Goiânia, utilizou-se
+     diversas medidas sustentáveis, que vão desde o uso de energia solar até a confecção de mobiliário 
+     ecológico.  O arquiteto Isaque Samir projetou a sua própria residência com a intenção de
+      promover uma arquitetura viva, saudável e permacultural. A estrutura é de concreto mas na vedação 
+      e nas paredes internas utilizou-se a alvenaria de taipa e adobe, que garantem um excelente isolamento
+       térmico e acústico. Além disso, segundo o arquiteto, o material é altamente biocompatível, ou seja,
+        o corpo humano tem identidade com este material, já que temos componentes em comum. </figcaption>    
+</div>
+
+
+<div id="tres-fecha3"class="conteudo">
+    <figure id="tres"> <img  src="https://sustentarqui.com.br/wp-content/uploads/2017/09/casa-sustentavel-modular-brasileira.jpg"id="c-img1" width="853px">  <div style="font-size:26pt; color: white;" id = "oc3">Casa sustentável de baixo custo (Campo Grande – MS)</div></figure>
+    <figcaption id="figcaption">O projeto da casa sustentável é de autoria do arquiteto espanhol Eugen 
+        Fudulu e do brasileiro Kleber Karru, em parceria com o laboratório europeu Open MS. A construção
+         é toda baseada na nanotecnologia, sem desperdiçar qualquer tipo de material e com apenas 4 
+         funcionários para erguê-la em menos de uma semana.Com foco no aproveitamento de água, ar e energia,
+          a construção ainda tem um purificador instalado que é capaz de filtrar a água antes que ela chegue
+           na torneira da residência. Além de estrutura para teto solar e aparelho de ar, que retira todas
+            as bactérias do ambiente. A construção resiste a tremores sísmicos e ventos de até 300 km/h.</figcaption>    
+    </div>
+<div style="display: none; flex-direction: column;" id="tres-fecha4" class="conteudo">
+    <figure id="quatro"> <img src="https://sustentarqui.com.br/wp-content/uploads/2017/09/casadeterra.png"id="c-img1" width="853px"> <div  style="font-size:50pt;  color: white;" id = "oc4">Casa de Terra ( Ubatuba-SP )</div> </figure>
+    <figcaption id="figcaption">A casa é um modelo da empresa  filix, formada pelos sócios arquitetos
+Isaque Samir, Luiz e Gabriel. Eles desenvolvem tipologias habitacionais básicas que
+incluem vários sistemas verdes economicamente viáveis, O principal material utilizado nos projetos é
+ o eucalipto autoclavado. Mas os módulos apresentam uma diversidade de técnicas da bioarquitetura como
+  a taipa e o pau-a-pique. Os modelos de casas incluem equipamentos verdes que permitem uma independência
+   das residências em relação aos sistemas convencionais de captação.</div>   
+</div>
+<div id="bott">
+    <button id="b1"onclick="login()"><p>Simão Pedro</p></button>
+    <button id="b2"onclick="login()"><p>André</p></button>
+    <button id="b3"onclick="login()"><p>Tiago</p></button>
+    <button id="b4"onclick="login()"><p>João</p></button>
+</div>
+</div>
+<script>
+    function mostrarDiv(divId) {
+        const divs = document.getElementsByClassName('conteudo');
+        for (let i = 0; i < divs.length; i++) {
+            divs[i].style.display = 'none';
+        }
+        document.getElementById(divId).style.display = 'block';
+    }
+</script>
+</body>
+</html>

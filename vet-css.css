@@ -1,0 +1,234 @@
+@charset  "utf-8";
+@font-face{
+    font-family: 'obra';
+    src: url("Agbalumo-Regular.ttf");
+}
+body{
+background: url('https://img.elo7.com.br/product/original/2480D88/painel-adesivo-decoracao-engenharia-civil-construcao-projeto-alta-resolucao.jpg');
+background-size: 100% auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: auto;
+height: 100%;
+}
+div#um{
+width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+padding-bottom: 0px;
+margin-bottom: 30px;
+}
+div#titulo{
+text-shadow: 1px 1px 1px blue, -1px 1px 1px blue, 1px -1px 1px blue, -1px -1px 1px blue;
+color: chartreuse;
+font-family: 'obra',sans-serif;
+    margin-top: 20px;
+background: url('https://blog.rodeowest.com.br/wp-content/uploads/2021/06/dia-do-meio-ambiente.jpg');
+background-size: 100% 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px;
+width: auto;
+height: 100px;
+border-radius: 20px;
+}
+div#titulo{
+    padding: 10px;
+font-size: 30pt;
+}
+div#dois{
+    width: 100%;
+    margin:20px;
+display: flex;
+flex-direction: row;
+border-radius: 20px;
+justify-content: space-around;
+align-items: center;
+}
+div#tres{
+width: 100%;
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+.ajuste-fotos{
+    border: 5px solid blue;
+border-radius: 91px;
+}
+div#empregado1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+div#empregado2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+div#empregado3{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+div#empregado4{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+div#empregado5{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+div#empregado6{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+div#menu{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+div#item1-a a{
+text-decoration: none;
+    color: orangered;
+}
+div#item2-b a{
+    text-decoration: none;
+        color: orangered;
+    }
+    div#item3-c a{
+        text-decoration: none;
+            color: orangered;
+        }
+div#item1-a{
+background: url('fundo-casa-menu.jpg');
+background-size: 100% 100%;
+margin: 30px;
+border-radius: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 15pt;
+width: 200px;
+height: 55px;
+border: 2px solid blue;
+transition: border 1s, height 1s;
+}
+
+div#item1-a:hover{
+    background: url('fundo-casa-menu.jpg');
+    background-size: 100% 100%;
+    margin: 30px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    width: 200px;
+    height: 60px;
+    border: 2px solid red;
+    }
+    .testel{
+        width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+.testeg{
+    width: 115px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.teste{
+        width: 95px;
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    }
+div#item2-b{
+    border: 2px solid blue;
+margin: 30px;
+display: flex;
+background: url('fundo-solar-menu.webp');
+background-size: 100% 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+font-size: 15pt;
+padding: 0;
+width: 200px;
+height: 55px;
+border: 2px solid blue;
+transition: border 1s, height 1s;
+}
+div#item2-b:hover{
+    background: url('fundo-solar-menu.webp');
+    background-size: 100% 100%;
+    margin: 30px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    width: 200px;
+    height: 60px;
+    border: 2px solid red;
+    }
+div#item3-c{
+    font-size: 15pt;
+
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: blue;
+margin: 30px;
+border: 2px solid blue;
+border-radius: 50px;
+background: url('fundo-plantas-aerias.jpg');
+background-size: 100% 100%;
+width: 200px;
+height: 55px;
+border: 2px solid blue;
+transition: border 1s, height 1s;
+}
+div#item3-c:hover{
+    background: url('fundo-plantas-aerias.jpg');
+    background-size: 100% 100%;
+    margin: 30px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    width: 200px;
+    height: 60px;
+    border: 2px solid red;
+    }
+
+
+  
+  

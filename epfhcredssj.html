@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script>
+        function isMobileDevice() {
+                    return (
+                        typeof window.orientation !== 'undefined' || 
+                        navigator.userAgent.indexOf('Mobile') !== -1
+                    );
+                }
+                function redirectToMobilePage() {
+                    if (isMobileDevice()) {
+                        console.log('Usuário está em um dispositivo móvel.');
+                        window.location.href = 'epfhcredssjc.html';
+                    } else {
+                        console.log('Usuário está em um computador.');
+                    }
+                }
+                document.addEventListener('DOMContentLoaded', redirectToMobilePage);
+</script>
+
+<link rel="stylesheet" type="text/css" href="cliente1.css"/>
+<title>Empresa Filix</title>
+<link rel="icon" href="icone.ico" type="image/x-icon">
+</head>
+<body>
+<div id="fundo">
+<div id="ch1">
+    <div onmousemove="muda1()"  onmouseout="muda1()" id="item1-a"><h2><a style="font-family: 'bezerra',sans-serif; font-size: 29pt; text-decoration: none; color: orangered; text-shadow: 1px 1px 2px black, -1px 1px 2px black , 1px -1px 2px black , -1px -1px 2px black;" href="index.html">Início </a></h2></div>
+    <div id="ch1ent">
+<h1 >Empresa Filix</h1>
+</div>
+<div onmousemove="muda1()"  onmouseout="muda1()" id="item2-b"><h2><a style="font-family: 'bezerra',sans-serif; font-size: 29pt; text-decoration: none; color: orangered; text-shadow: 1px 1px 2px black, -1px 1px 2px black , 1px -1px 2px black , -1px -1px 2px black;" href="epfhcredssj.html">Atualizar </a></h2></div>
+
+</div>
+<div id="ch2">
+    <h1 style="text-shadow: 1px 1px 2px black,  1px -1px 2px black,  -1px 1px 2px black,  -1px -1px 2px black;">Olá, senhor Simão Pedro! Esta é uma página dedicada ao projeto da sua casa. Logo abaixo, você pode acompanhar a construção da sua residência.</h1>
+</div>
+
+<div id="ch3">
+
+    <h1 style="font-family: 'silva',sans-serif; color: white; text-shadow: 1px 1px 5px black,  1px -1px 5px black,  -1px 1px 5px black,  -1px -1px 5px black;">Imagem da construção:</h1>
+<picture>
+    <img style="border-radius: 30px; border:6px solid blue;"id="img1" src="constru.jpeg">
+</picture>
+<caption >
+<p style="color: white; background: rgba(1,1,1,0.5); padding: 5px; border-radius: 20px; margin-top: 0;">foto tirada em 2023 de uma casa renovável localizada em Buri sp.</p> 
+</caption>
+</div>
+<div id="ch4">
+<h3 style="color: white; background: rgba(1,1,1,0.5); padding: 5px; border-radius: 10px;">No que diz respeito à eficiência energética, implementamos sistemas que otimizam o consumo, como iluminação LED e eletrodomésticos energeticamente eficientes. Além disso, a casa conta com a utilização de fontes de energia renovável, como painéis solares, promovendo a redução do impacto ambiental e a independência de fontes não renováveis.
+
+    Pensando na gestão da água, instalamos um sistema de captação de água da chuva, contribuindo para a sustentabilidade hídrica ao reduzir a demanda por água potável. Os materiais empregados na construção são ecologicamente corretos, priorizando a sustentabilidade e a preservação dos recursos naturais.
+    
+    O paisagismo foi concebido de forma a promover a biodiversidade local, com a utilização de plantas nativas e práticas de jardinagem sustentáveis. Além disso, adotamos um sistema eficaz de gerenciamento de resíduos, incluindo coleta seletiva e reciclagem, visando a minimização do impacto ambiental.
+    
+    Estamos empenhados em proporcionar a você não apenas uma casa, mas um estilo de vida que respeita e preserva o meio ambiente. Agradecemos por escolher uma abordagem sustentável, contribuindo para um futuro mais equilibrado e saudável.</h3>
+</div>
+<div id="ch5">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/5515988163032?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+</div>
+</body>
+</html>

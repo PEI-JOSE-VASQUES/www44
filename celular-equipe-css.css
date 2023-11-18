@@ -1,0 +1,467 @@
+@charset "utf-8";
+@font-face{
+font-family: 'isaque';
+src: url("Agbalumo-Regular.ttf");
+}
+@font-face{
+font-family: 'samir';
+src: url("Lobster-Regular.ttf");
+}
+body{
+background: url('https://drenaltec.com.br/wp-content/uploads/2020/03/casas-ecol%C3%B3gicas-sustent%C3%A1veis-1030x606.jpeg');
+background-size: auto auto;
+width: 100%;
+height: 100%;
+margin: 0;
+}
+.conteudo {
+display: block;
+}
+div#um{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: space-around;
+}
+div#v1{
+width: 170px;
+margin-right: 17%;
+}
+div#v2{
+width:170px;
+margin-left: 17%;
+background-size: 100% 100%;
+}
+img#troca{
+width: 100%;
+height: 100%;
+}
+div#um h1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+    font-size: 5vh;
+    white-space: nowrap;
+    font-family: 'isaque',sans-serif;
+    margin-top:  10px;
+    background: url('Imagem2.jpeg');
+    padding: 5px;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    }
+div#dois{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: auto;
+column-gap: 20px;
+font-size: 20pt;
+margin-bottom:0;
+}
+div#dois h2{
+text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+}
+div#item1-a{
+margin: 50px;
+margin-top: 5;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: orangered;
+background: url('fundo-casa-menu.jpg');
+background-size: cover ;
+border-radius: 30px;
+width: 200px;
+height: 60px;
+transition: border 1s, margin 1s ;
+}
+div#item1-a:hover{
+    margin: 50px;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: orangered;
+background: url('fundo-casa-menu.jpg');
+background-size: cover ;
+border-radius: 30px;
+width: 200px;
+height: 65px;
+border: 5px solid blue;
+}
+div#item2-b{
+    margin: 50px;
+margin-top: 5;
+background: url('fundo-solar-menu.webp');
+background-size: cover ;
+color: blueviolet;
+background-color: green;
+border-radius: 30px;
+width: 200px;
+height: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: border 1s, margin 1s ;
+}
+div#item2-b:hover{
+    margin: 50px;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: orangered;
+background: url('fundo-solar-menu.webp');
+background-size: cover ;
+border-radius: 30px;
+width: 200px;
+height: 65px;
+border: 5px solid blue;
+}
+div#item3-c{
+    margin: 50px;
+    margin-top: 5;
+    background: url('fundo-plantas-aerias.jpg');
+    background-size: cover ;
+    color: blueviolet;
+    background-color: green;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+transition: border 1s, margin 1s ;
+}
+div#item3-c:hover{
+    margin: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    background: url('fundo-plantas-aerias.jpg');
+    background-size: cover ;
+    border-radius: 30px;
+    width: 200px;
+    height: 65px;
+    border: 5px solid blue;
+}
+
+figcaption#figcaption
+{
+padding: 20px;
+border-radius: 20px;
+background: rgba(1, 1, 1, 0.6);
+text-align: justify;
+color: white;
+text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+font-size: 15pt;
+}
+div#oc1{
+position: absolute;
+top: 0px;
+left: 0px;
+width: auto;
+height: auto;
+background: rgba(1, 1, 1, 0.0);
+padding: 10px;
+box-sizing: border-box;
+border-radius: 15px; 
+display: flex;
+flex-direction: center;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transition: border 1s, background 1s, opacity 1s;
+}
+div#oc1:hover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    background: rgba(1, 1, 1, 0.0);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+div#oc2{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background: rgba(1, 1, 1, 0.0);
+padding: 10px;
+box-sizing: border-box;
+border-radius: 15px; 
+display: flex;
+flex-direction: center;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transition: border 1s, background 1s, opacity 1s;
+}
+div#oc2:hover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.0);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+div#oc3{
+position: absolute;
+top: 0px;
+left: 0px;
+width: auto;
+height: auto;
+background: rgba(1, 1, 1, 0.0);
+padding: 10px;
+box-sizing: border-box;
+border-radius: 15px; 
+display: flex;
+flex-direction: center;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transition: border 1s, background 1s, opacity 1s;
+}
+div#oc3:hover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    background: rgba(1, 1, 1, 0.0);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+div#oc4{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background: rgba(1, 1, 1, 0.0);
+padding: 10px;
+box-sizing: border-box;
+border-radius: 15px; 
+display: flex;
+flex-direction: center;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transition: border 1s, background 1s, opacity 1s;
+}
+div#oc4:hover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.0);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+
+
+
+
+
+div#fundo{
+background: rgba(1, 1, 1, 0.8);
+width: auto;
+height: auto;
+margin: 2;
+margin-bottom: 0px;
+border-radius: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+
+
+button#b1{
+    margin: 30px;
+color: white;
+background: url("https://sustentarqui.com.br/wp-content/uploads/2015/03/Casa-88-e1426267643681.jpg")no-repeat;
+background-size: 100% 100%;
+border-radius: 25px;
+font-size: 10vh;
+width:670px;
+height: 600px;
+margin-left: 0px;
+margin-right: 0px;
+border: 5px solid orangered;
+transition: margin-top 1s, border 1s;
+margin-left: 0px;
+text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
+
+}
+button#b1:hover{
+    margin: 30px;
+    color: white;
+    width:670px;
+    height: 600px;
+background: url("https://sustentarqui.com.br/wp-content/uploads/2015/03/Casa-88-e1426267643681.jpg")no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    border: 5px solid blue;
+    font-size: 10vh;
+    text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
+}
+    
+button#b2{
+    margin: 30px;
+    font-size: 10vh;
+    color: white;
+    background: url("https://sustentarqui.com.br/wp-content/uploads/2016/02/fachada-1.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    width:670px;
+    height: 600px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
+    border: 5px solid orangered;
+transition: margin-top 1s, border 1s;
+
+
+}
+button#b2:hover{
+    margin: 30px;
+    color: white;
+    width:670px;
+    height: 600px;
+    background: url("https://sustentarqui.com.br/wp-content/uploads/2016/02/fachada-1.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    border: 5px solid blue;
+    font-size: 10vh;
+    text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
+    
+}
+button#b3{
+    margin: 30px;
+    text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
+    color: white;
+    background: url("https://sustentarqui.com.br/wp-content/uploads/2017/09/casa-sustentavel-modular-brasileira.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    font-size: 10vh;
+    height: 150px;
+    margin-left: 0px;
+    width:670px;
+    height: 600px;
+    margin-right: 0px;
+    border: 5px solid orangered;
+transition: margin-top 1s, border 1s;
+}
+button#b3:hover{
+    margin: 30px;
+    color: white;
+    background: url("https://sustentarqui.com.br/wp-content/uploads/2017/09/casa-sustentavel-modular-brasileira.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    width:670px;
+    height: 600px;
+    text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
+    border: 5px solid blue;
+    font-size: 10vh;
+}
+button#b4{
+    margin: 30px;
+    color: white;
+    background: url("https://sustentarqui.com.br/wp-content/uploads/2017/09/casadeterra.png") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    font-size: 10vh;
+    width:670px;
+    height: 600px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 5px solid orangered;
+    transition: margin-top 1s, border 1s;
+    text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
+    transition: margin-top 1s, border 1s;
+}
+button#b4:hover{
+    margin: 30px;
+    color: white;
+    width:670px;
+    height: 600px;
+background: url("https://sustentarqui.com.br/wp-content/uploads/2017/09/casadeterra.png") no-repeat;
+background-size: 100% 100%;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    border: 5px solid blue;
+    font-size: 10vh;
+    text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
+ 
+}
+div#bott{
+    border-radius: 25px;
+width: auto;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+margin-bottom: 50px;
+background-color: rgba(26, 216, 206, 0.2)
+}

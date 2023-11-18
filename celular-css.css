@@ -1,0 +1,190 @@
+@charset "utf-8";
+@font-face{
+font-family: "isaque";
+src: url("Agbalumo-Regular.ttf");    
+}
+@font-face{
+    font-family: "samir";
+    src: url("DancingScript-VariableFont_wght.ttf");    
+    }
+    @font-face{
+        font-family: "bezerra";
+        src: url("Lobster-Regular.ttf");    
+        }
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: url("gif-celular.gif") no-repeat;
+background-size: 100% 100%;
+height: auto;
+width: auto;
+
+}
+div#um{
+    background: url('celular-fundo-titulo.gif')  no-repeat;
+    background-size: 100% 100%;
+opacity: 0.8;
+width: auto;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 10px;
+border-radius: 50px;  
+padding: 20px; 
+box-sizing: border-box;
+}
+
+h1#um-a{
+    font-family: 'isaque',sans-serif;
+    border-radius: 50px;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color:red;
+    font-weight: 900;
+    text-shadow: 1px 1px 9px black, -1px 1px 9px black, 1px -1px 9px black, -1px -1px 9px black;
+border-radius: 50px;   
+padding: 20px; 
+box-sizing: border-box;
+}
+h1#texto{
+background: url("celular-fundo-texto.gif") ;
+    background-size: 100% 100%;
+    border-radius: 50px;
+    padding: 10px;
+    color: black;
+    text-shadow: 1px 1px 5px white, -1px 1px 5px white, 1px -1px 5px white, -1px -1px 5px white;
+opacity: 0.9;
+font-family: 'samir',sans-serif;
+}
+div#dois{
+    font-family: 'samir',sans-serif;
+column-gap: 180px;
+width: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between; 
+}
+div#item1-a{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    background: url('fundo-casa-menu.jpg');
+    background-size: cover ;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    border: 2px solid blue;
+    transition: margin-top 1s, border 1s;
+    font-family: 'samir',sans-serif;
+
+
+    }
+    
+    
+    
+    div#item1-a:hover{
+        border: 7px solid blue;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+        background: url('fundo-casa-menu.jpg');
+        background-size: cover ;
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        }
+    
+    
+    
+    
+    div#item2-b{
+        margin-top: 10px;
+        background: url('fundo-solar-menu.webp');
+    background-size: cover ;
+    color: blueviolet;
+    background-color: green;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    transition: margin-top 1s, border 1s;
+    }
+    
+    div#item2-b:hover{
+        border: 7px solid blue;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+        background: url('fundo-solar-menu.webp');
+        background-size: cover ;
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        }
+    
+    div#item3-c{
+        margin-top: 10px;
+    color: brown;
+     background-color: blueviolet;
+     border-radius: 30px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 200px;
+    height: 60px;
+    background: url('fundo-plantas-aerias.jpg');
+    background-size: cover ;
+    border: 2px solid blue;
+    transition: margin-top 1s, border 1s;
+    }
+    div#item3-c:hover{
+        border: 7px solid blue;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+        background: url('fundo-plantas-aerias.jpg');
+        background-size: cover ;
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        }
+h1#marca{
+font-size: 10pt;
+color: black;
+font-family: 'isaque',sans-serif;
+}
+div#ch5{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
